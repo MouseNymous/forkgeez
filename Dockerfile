@@ -2,7 +2,7 @@
 FROM vckyouuu/geezprojects:buster
 # Geez-UserBot
 #
-RUN git clone -b Geez-UserBot https://github.com/vckyou/Geez-UserBot /root/userbot
+RUN git clone -b Geez-UserBot https://github.com/MouseNymouse/forkgeez /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
